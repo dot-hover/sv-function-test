@@ -1,0 +1,23 @@
+{
+    "projectId": "6601829cc637a81ce739",
+    "projectName": "Stardew Valley Wiki",
+    "functions": [
+        {
+            "$id": "6601cea8a67bb5f4f8eb",
+            "name": "sv-function-test",
+            "runtime": "python-3.9",
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "src/main.py",
+            "commands": "pip install -r requirements.txt",
+            "ignore": [
+                "__pypackages__"
+            ],
+            "path": "functions/sv-function-test"
+        }
+    ]
+}
